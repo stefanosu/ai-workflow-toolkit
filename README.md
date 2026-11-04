@@ -25,6 +25,7 @@ The goal is to move faster while maintaining ownership. Every line of code I shi
 ```
 ai-workflow-toolkit/
 ├── README.md                 # This file
+├── HOW_TO_USE.md             # Setup and usage guide
 ├── processes/
 │   └── WORKFLOW.md           # Step-by-step development process
 ├── prompts/
@@ -37,7 +38,8 @@ ai-workflow-toolkit/
 │   ├── PATTERNS.md           # Common algorithm patterns
 │   └── MENTAL_MODELS.md      # Problem-solving frameworks
 └── templates/
-    └── PROJECT_KICKOFF.md    # New project checklist
+    ├── PROJECT_KICKOFF.md    # New project checklist
+    └── PRACTICE_LOG.md       # Daily practice tracker
 ```
 
 ---
@@ -73,16 +75,22 @@ ai-workflow-toolkit/
 
 ---
 
-## Usage in Projects
-
-Reference this repo in any project:
+## Quick Setup
 
 ```bash
-# Clone as reference
-git clone https://github.com/YOUR_USERNAME/ai-workflow-toolkit.git ~/ai-workflow-toolkit
+# Clone to home directory (one time)
+git clone https://github.com/stefanosu/ai-workflow-toolkit.git ~/toolkit
+```
 
-# Or add as submodule to a project
-git submodule add https://github.com/YOUR_USERNAME/ai-workflow-toolkit.git docs/workflow
+See [HOW_TO_USE.md](HOW_TO_USE.md) for shell aliases and integration tips.
+
+## Usage in Projects
+
+Reference this repo in your project README:
+
+```markdown
+## Development
+This project follows my [AI-assisted workflow](https://github.com/stefanosu/ai-workflow-toolkit).
 ```
 
 ---
