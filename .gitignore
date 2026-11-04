@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.temp
+
+# Notes (keep your personal notes out of repo)
+PERSONAL_NOTES.md
+scratch/
